@@ -17,14 +17,14 @@ int main(){
 	for(i=0;i<8;i++){
 		
 		
-		//QUEM É MAIOR VALOR
+		//QUEM Ã‰ MAIOR VALOR
 		if(pos[i]>mai){
 		
 		mai=pos[i];
 		poisma=i;
 			
 		}
-		//QUEM É MENOR VALOR
+		//QUEM Ã‰ MENOR VALOR
 		if(pos[i]<men){
 			
 		men=pos[i];
@@ -41,7 +41,7 @@ int main(){
 	printf("\n o maior elemento eh %d na posicao %d \n",mai,poisma+1);
 	printf("o menor elemento eh %d na posicao %d \n",men,poisme+1);
 	
-		//TROCAR POSIÇÃO DE MAIOR E MENOR VALOR 	
+		//TROCAR POSIÃ‡ÃƒO DE MAIOR E MENOR VALOR 	
 		men1=men;
 		poisme1=poisme;
 	if(mai>men){
